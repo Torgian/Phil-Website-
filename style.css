@@ -1,0 +1,178 @@
+body {
+  background: url(img/taichungcity.jpg) center center no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*mailing button */
+
+.mailto a[href^="mailto:"]
+{
+  font-family: sans-serif;
+  color:black;
+  font-size:50px;
+}
+
+.mailto a[href^="mailto:"]:after{
+  content: 'Roxxxandco@gmail.com';
+}
+
+.mailto {
+  font-size:20px;
+}
+
+/* Header */
+.nav-pills li a {
+  color: #d8192f;
+}
+
+.nav-pills li.active a,
+.nav-pills li a:hover,
+.section .btn:hover {
+  background-color:rgba(216,25,47,1);
+  box-shadow:0 2px 4px rgba(0,0,0,.5); 
+  color:#fff;
+}
+
+/*styling */
+
+.header {
+  background:black;
+}
+
+.container {
+  max-width: 928px;
+}
+
+.container img {
+  max-height: 80%;
+  max-width:80%;
+
+}
+
+.navbar {
+  background-color:black;
+  z-index: 1;
+  border:none;
+  border-radius: none;
+
+}
+
+.separation {
+  margin-top:50px;
+}
+
+h1, h2, h3, p, a {
+  font-family: 'Helvetica Neue Thin', 'HelveticaNeue-Thin', 'helvetica neue', helvetica, arial, 'lucida grande', sans-serif;
+  margin-top: 0;
+  color:white;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+a {
+  font-size:18px;
+  font-weight: 200;
+}
+
+.main img {
+  
+  height: 550px;
+  padding-top: 55px;
+}
+
+.main p {
+  color: darkorange;
+  font-size: 26px;
+  font-weight: 200;  
+  margin-bottom: 40px;
+}
+
+.main h1 {
+  color: darkorange;
+}
+
+
+.btn {
+  
+  background-color: rgba(238,68,95,0.9);
+  border-radius: 10px;
+}
+
+.btn a {
+  text-decoration: none;
+  color:white;
+}
+
+.section .row {
+  
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.col-md-6 {
+  margin-top: 20px;
+}
+
+.col-md-6 p {
+  font-size: 1.7em;
+}
+
+.store {
+  margin-top: 80px;
+  margin-bottom:10px;
+  text-align: center;
+  border-bottom: 0px;
+  padding-bottom:100px
+}
+
+.footer {
+  border-top: 1px solid #dbdbdb;
+  background-color: #f3f3f3;
+  padding: 20px 0px 80px;
+}
+
+.footer h4 {
+  color: #B7B2B2;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer li {
+  color: #777;
+  font-weight: 600;
+}
+
+/*background opacity class */
+
+.alpha60 {
+/* Fallback for web browsers that doesn't support RGBa */
+background: rgb(0, 0, 0);
+/* RGBa with 0.6 opacity */
+background: rgba(0, 0, 0, 0.6);
+/* For IE 5.5 - 7*/
+
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+
+/* For IE 8*/
+
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+10.
+}
+
+@media (max-width: 500px) {
+  .col-md-6 img {
+    padding: 50px;
+    width: 100%;
+  }
+}
