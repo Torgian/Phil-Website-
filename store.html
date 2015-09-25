@@ -1,28 +1,44 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="main">
-      
-      <nav class="navbar navbar-default navbar-fixed-top">
-       <div class="container">
-          <h1>Phil's Watches</h1>
-                </div>
-      </nav>
-          
+   <div class="main">
+        <div class="header navbar-fixed-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <h1>Phil's Watches</h1>
+              </div>
+              <div class="col-md-6">
+              <nav class="nav nav-pills">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="store.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </nav>
+              
+            
+          </div>
         </div>
       </div>
     </div>
-    
+  </div>
       <div class="section alpha60">
       <div class="container">
         <div class="row separation">
           <div class="col-md-4">
-            <h1>Gold Casio</h1>
-            <img src="img/watch1.jpg">
+            <div class="parent-container">
+              <h3>Gold Casio</h3>
+              <a href="img/watch1.jpg">
+              <img src="img/watch1.jpg" alt="" />
+            </a>
+            </div>
+              
               <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
               <input type="hidden" name="cmd" value="_s-xclick">
               <input type="hidden" name="hosted_button_id" value="QACVNGSFW5DXG">
@@ -31,27 +47,51 @@
               </form>
             </div>
           <div class="col-md-4">
-            <img src="img/watch2.jpg">
+            <div class="parent-container">
+              <h3>Casio 2</h3>
+              <a href="img/watch2.jpg">
+              <img src="img/watch2.jpg" alt="" />
+            </div>
         </div>
         <div class="col-md-4">
-          <img src="img/watch3.jpg">
+           <div class="parent-container">
+              <h3>Casio 3</h3>
+              <a href="img/watch3.jpg">
+              <img src="img/watch3.jpg" alt="" />
+            </div>          
         </div>
 
       </div>
       <div class="row">
         <div class="col-md-4">
-          <img src="img/watch4.jpg">
+           <div class="parent-container">
+              <h3>Casio 4</h3>
+              <a href="img/watch4.jpg">
+              <img src="img/watch4.jpg" alt="" />
+            </div>         
         </div>
         <div class="col-md-4">
-          <img src="img/watch5.jpg">
+           <div class="parent-container">
+              <h3>Casio 5</h3>
+              <a href="img/watch5.jpg">
+              <img src="img/watch5.jpg" alt="" />
+            </div>
         </div>
         <div class="col-md-4">
-          <img src="img/watch6.jpg">
+           <div class="parent-container">
+              <h3>Casio 6</h3>
+              <a href="img/watch6.jpg">
+              <img src="img/watch6.jpg" alt="" />
+            </div>
         </div>
       </div>
       <div class="row">
         <div class="col-md-4">
-          <img src="img/watch7.jpg">
+           <div class="parent-container">
+              <h3>Casio 7</h3>
+              <a href="img/watch7.jpg">
+              <img src="img/watch7.jpg" alt="" />
+            </div>
         </div>
       </div>
     </div>
@@ -88,6 +128,13 @@
         
       </div>
     </div>
+    <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+    
 
+    <!-- Magnific Popup core JS file -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="magnific-popup/jquery.magnific-popup.js"></script>
+    <script src="effects.js"></script>
   </body>
+
 </html>
